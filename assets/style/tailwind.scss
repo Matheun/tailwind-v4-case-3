@@ -1,4 +1,4 @@
-@import "./spacing.scss" layer(theme);
+@import "./theme/_index.scss" layer(theme);
 
 @import "tailwindcss/preflight" layer(base);
 

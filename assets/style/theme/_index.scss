@@ -1,0 +1,7 @@
+// # -----------------------------------------------------------------
+// # These imports are indeed wrong, but postcss starts looking for files starting at
+// # assets/styles/vendors/tailwindcss.scss, so we need to make the import paths relative to that file.
+// # -----------------------------------------------------------------
+@import "../theme/_spacing.scss"; // <-- Is not getting detected as a change for the HMR
+
+// @import "../theme/_spacing.scss" layer(theme); // <-- Is getting detected as a change for the HMR
