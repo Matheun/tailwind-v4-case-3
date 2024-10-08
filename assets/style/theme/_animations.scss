@@ -1,0 +1,23 @@
+@theme {
+    @keyframes scaleInY {
+        from {
+            opacity: 0;
+            transform: scaleY(0.75);
+        }
+        to {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    @keyframes scaleOutY {
+        from {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+        to {
+            opacity: 0;
+            transform: scaleY(0.75);
+        }
+    }
+}

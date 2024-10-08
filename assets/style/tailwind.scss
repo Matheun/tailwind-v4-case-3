@@ -3,3 +3,5 @@
 @import "tailwindcss/preflight" layer(base);
 
 @import "tailwindcss/utilities" layer(utilities);
+
+@import "./components/_button.scss" layer(components);

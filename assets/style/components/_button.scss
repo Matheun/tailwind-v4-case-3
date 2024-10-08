@@ -1,0 +1,33 @@
+button {
+    font-size: 12px;
+}
+
+[data-state="closed"] {
+    animation: scaleOutY 300ms ease;
+}
+[data-state="open"] {
+    animation: scaleInY 300ms ease;
+}
+
+// Uncommenting the code below makes it work
+// @keyframes scaleInY {
+//     from {
+//         opacity: 0;
+//         transform: scaleY(0.75);
+//     }
+//     to {
+//         opacity: 1;
+//         transform: scaleY(1);
+//     }
+// }
+
+// @keyframes scaleOutY {
+//     from {
+//         opacity: 1;
+//         transform: scaleY(1);
+//     }
+//     to {
+//         opacity: 0;
+//         transform: scaleY(0.75);
+//     }
+// }

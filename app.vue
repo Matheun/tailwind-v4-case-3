@@ -1,5 +1,12 @@
+<script setup lang="ts">
+const isOpen = ref(false);
+</script>
+
 <template>
-  <div>
-    <p class="pt-4">Test paragraph</p>
-  </div>
+  <button @click="isOpen = !isOpen">
+    Button
+    <div v-if="isOpen" :data-state="isOpen ? 'open' : 'closed'">
+      content
+    </div>
+  </button>
 </template>
